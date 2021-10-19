@@ -5,9 +5,143 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>PLACEHOLDER</title>
+  <title>Flashcards</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="title">
+      <h1>Epicodus Study Flashcards</h1>
+      <h5>Click on the term to reveal the definition, and the definition to reveal the term. Or, select a button below to reveal all terms or all definitions.
+      </h5>
+      <button type="button" class="btn btn-dark" id="allT">All Terms</button>
+      <button type="button" class="btn btn-dark" id="allD">All Definitions</button>
+    </div>
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title" id="js">JavaScript</h2>
+          <ul class="card-text" id="js-text">
+            <li>JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites. While JavaScript is influenced by Java, the syntax is more similar to C and is based on ECMAScript, a scripting language developed by Sun Microsystems.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title" id="jq">jQuery</h2>
+          <ul class="card-text" id="jq-text">
+            <li>jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title" id="fc">Functions</h2>
+          <ul class="card-text" id="fc-text">
+            <li>A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title" id="ar">Arguments</h2>
+          <ul class="card-text" id="ar-text">
+            <li>An argument is a way for you to provide more information to a function. The function can then use that information as it runs, like a variable. Said differently, when you create a function, you can pass in data in the form of an argument, also called a parameter. </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title" id="op">Operators</h2>
+          <ul class="card-text" id="op-text">
+            <li>An operator, in computer programing, is a symbol that usually represents an action or process. These symbols were adapted from mathematics and logic. An operator is capable of manipulating a certain value or operand.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title" id="pr">Parameters</h2>
+          <ul class="card-text" id="pr-text">
+            <li>Parameters identify values that are passed into a function. For example, a function to add three numbers might have three parameters. A function has a name, and it can be called from other points of a program. When that happens, the information passed is called an argument.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title" id="bo">Booleans</h2>
+          <ul class="card-text" id="bo-text">
+            <li>In some programming languages, such as Perl, there is no special boolean data type. However, when using if it returns as either true or false. Booleans used in programming. In programming, a boolean can be used with conditional statements.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title" id="nu">Null</h2>
+          <ul class="card-text" id="nu-text">
+            <li>In computer programming, null is both a value and a pointer. Null is a built-in constant that has a value of zero. It is the same as the character 0 used to terminate strings in C. Null can also be the value of a pointer, which is the same as zero unless the CPU supports a special bit pattern for a null pointer.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title" id="al">Alert</h2>
+          <ul class="card-text" id="al-text">
+            <li>A sound or message that indicates some predefined event has occurred or a selected operation is about to be performed. The terms "alert" and "alarm" are sometimes used synonymously; however, an alert is more of a warning in advance, whereas an alarm signals that the event or error has occurred.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title" id="rt">Return</h2>
+          <ul class="card-text" id="rt-text">
+            <li>Many a times, we will require our functions to do some processing and return back the result. This is accomplished with the return() function in R.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title" id="var">Variables</h2>
+          <ul class="card-text" id="var-text">
+            <li>A variable, in the context of programming, is a symbolic name given to an unknown quantity that permits the name to be used independent of the information it represents. Variables are associated with data storage locations, and values of a variable are normally changed during the course of program execution.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title" id="na">NaN</h2>
+          <ul class="card-text" id="na-text">
+            <li>Different programming languages handle NaN values in different ways. For example, in JavaScript, NaN is a property of a global object (i.e. Number.NaN). JavaScript provides an isNan() function to check if a value is NaN.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
